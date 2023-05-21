@@ -6,6 +6,7 @@ import unicorn
 import dragon
 
 
+# this is the main func
 def main():
     new_dog = dog.Dog("Brownie",10)
     new_cat = cat.Cat("Zelda", 3)
