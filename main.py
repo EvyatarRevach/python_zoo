@@ -30,6 +30,16 @@ def main():
         while animal1.is_hungry() is True:
             animal1.feed()
         animal1.talk()
+        if isinstance(animal1, dog.Dog):
+            animal1.fetch_stick()
+        if isinstance(animal1,cat.Cat):
+            animal1.chase_laser()
+        if isinstance(animal1, skunk.Skunk):
+            animal1.stink()
+        if isinstance(animal1, unicorn.Unicorn):
+            animal1.sing()
+        if isinstance(animal1,dragon.Dragon):
+            animal1.breath_fire()
     print(Animal.zoo_name)
 
 main()

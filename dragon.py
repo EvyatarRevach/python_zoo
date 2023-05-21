@@ -19,3 +19,6 @@ class Dragon(Animal):
 
     def talk(self):
         print("Raaaawr")
+
+    def breath_fire(self):
+        print("$@#$#@$")

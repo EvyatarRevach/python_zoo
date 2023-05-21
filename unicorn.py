@@ -17,3 +17,6 @@ class Unicorn(Animal):
 
     def talk(self):
         print("Good day, darling")
+
+    def sing(self):
+        print("I’m not your toy...")

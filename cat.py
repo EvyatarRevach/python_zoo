@@ -17,4 +17,7 @@ class Cat(Animal):
             self._hunger -= 1
 
     def talk(self):
-        print("meow	")
+        print("meow")
+
+    def chase_laser(self):
+        print("Meeeeow")

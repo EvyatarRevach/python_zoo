@@ -19,3 +19,6 @@ class Skunk(Animal):
 
     def talk(self):
         print("tsssss")
+
+    def stink(self):
+        print("Dear lord!")
